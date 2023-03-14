@@ -67,8 +67,7 @@ function get_matches_json(matches_index = 0) {
             "url": "https://www.filgoal.com/matches/ajaxlist?date=" + today_date,
             "headers": {
                 "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
-                "referer": "https://www.filgoal.com/matches/",
-                "Access-Control-Allow-Origin": *
+                "referer": "https://www.filgoal.com/matches/"
             },
             success: function (res) {
 
