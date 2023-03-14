@@ -361,7 +361,7 @@ function show_akoam_cats(cat = "movies") {
         }
 
 
-        $(".servers_btns_container").append(`<button class="server_btn" onclick="javascript:load_akowam(this,'https://akwam.to/${cat}?section=${cat_id}')">${button_icon}${button_text}</button>`);
+        $(".servers_btns_container").append(`<button class="server_btn" onclick="javascript:load_akowam(this,'https://eg1.ak4eg.cam/${cat}?section=${cat_id}')">${button_icon}${button_text}</button>`);
     }
 
     back_buttons_functions.unshift(function () {
