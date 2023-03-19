@@ -64,7 +64,7 @@ function get_matches_json(matches_index = 0) {
         var today_date = year + "-" + month + "-" + date;
         $.MouAjax({
             "type": "GET",
-            "url": "https://www.filgoal.com/matches/ajaxlist?date=" + today_date,
+            "url": "https://api.allorigins.win/get?url=https://www.filgoal.com/matches/ajaxlist?date=" + today_date,
             "headers": {
                 "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
                 "referer": "https://www.filgoal.com/matches/"
